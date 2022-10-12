@@ -106,8 +106,7 @@ function gameLoop(){
 
 init();
 draw();
-init();
-        myInterval = setInterval(gameLoop, 100);
+myInterval = setInterval(gameLoop, 100);
 // document.addEventListener(keydown)
 
 function keyPressed(e){

@@ -1,0 +1,51 @@
+body{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+.start,h1{    
+    margin: 50px auto;
+    text-align: center;
+}
+img{
+    max-width: 20px;
+}
+section{
+    width: 620px;
+    background-color: green;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: -2px;
+}
+section div{
+    width: 50%;
+}
+
+.current{
+    text-align: left;
+    margin: 10px;
+    margin-bottom: -10px;
+}
+.high{
+    text-align: right;
+    margin: 10px;
+    margin-bottom: -10px;
+}
+h2,p{
+    display: inline;
+    color: aliceblue;
+    /* border-top: solid 60px green; */
+    
+}
+#mycanvas{
+    height: 600px;
+    width: 600px;
+    background-image: url("./assets/bg.jpg");
+    background-position: center;
+    background-size: 600px;
+    display: flex;
+    margin: 0px auto;
+    border: solid 10px green;
+    /* padding-top: 10px; */
+}

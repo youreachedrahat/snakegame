@@ -106,6 +106,8 @@ function gameLoop(){
 
 init();
 draw();
+init();
+        myInterval = setInterval(gameLoop, 100);
 // document.addEventListener(keydown)
 
 function keyPressed(e){
@@ -113,9 +115,9 @@ function keyPressed(e){
     else if(e.key=="ArrowLeft"){snake.direction="left"}
     else if(e.key=="ArrowUp"){snake.direction="up"}
     else if(e.key=="ArrowDown"){snake.direction="down"}
-    else if(e.key==" "){
-        init();
-        myInterval = setInterval(gameLoop, 100); 
-    }
+//     else if(e.key==" "){
+//         init();
+//         myInterval = setInterval(gameLoop, 100); 
+//     }
 } 
 document.addEventListener('keydown', keyPressed)
